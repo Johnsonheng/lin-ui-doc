@@ -65,7 +65,9 @@ git clone https://github.com/TaleLin/lin-ui.git
 
      - **将基础库版本设置到 `>=2.8.2`**
 
-2. 在页面中引入
+2. 删除app.json文件中"style":"v2"这段
+
+3. 在页面中引入
    ```json
    {
      "usingComponents":{
@@ -73,7 +75,7 @@ git clone https://github.com/TaleLin/lin-ui.git
      }
    }
    ```
-3. 在页面中使用
+4. 在页面中使用
    ```html
     <l-button type="default">默认按钮</l-button>
    ```
